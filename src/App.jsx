@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar/Navbar.jsx";
-import Footer from "./Components/Footer/Footer.jsx";
 import Home from "./Pages/Home.jsx";
 import Register from "./Pages/Register.jsx";
 import Login from "./Pages/Login.jsx";
