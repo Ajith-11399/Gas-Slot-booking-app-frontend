@@ -47,7 +47,7 @@ const Register = () => {
     };
     try {
       await axios
-        .post("http://localhost:5000/api/user/register-user", payload)
+        .post("https://gas-slot-booking-app-backend.onrender.com/api/user/register-user", payload)
         .then((res) => setMessage(res.data.message))
         .catch((error) => {
           console.log(error);
