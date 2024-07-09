@@ -1,0 +1,9 @@
+.gasBanner {
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.821), rgba(0, 0, 255, 0.229)), url(./products-banner.webp) no-repeat center !important;
+    background-size: cover !important;
+    height: 600px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}

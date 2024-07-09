@@ -1,0 +1,24 @@
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    transition: border-bottom-color 0.3s;
+}
+
+.form-control:focus {
+    border-bottom-color: #007bff;
+    box-shadow: none;
+}
+
+.fs-1 {
+    font-size: 2.5rem;
+    font-weight: medium;
+}
+
+.text-center {
+    text-align: center;
+}

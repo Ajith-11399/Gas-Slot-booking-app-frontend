@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Permanent+Marker&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.font-curv {
+    font-family: "Satisfy", cursive !important;
+}
+
+.text-violet {
+    color: #ee82ee !important;
+}
+
+.bg-violet {
+    background-color: #ee82ee !important;
+    border: 2px solid #ee82ee !important;
+}
+
+.bg-violet:hover {
+    background-color: white !important;
+    border: spx solid #ee82ee !important;
+    color: #ee82ee !important;
+}
+
+.cloudNine {
+    width: 100% !important;
+    border-radius: 30px !important;
+}
+
+.fa-circle-down{
+    color: #ee82ee !important;
+    font-size: 20px;
+}
+
+.fa-circle-down:hover{
+    color: #0d6efd !important;
+}
+
+@media (max-width: 576px) {
+    .desc {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        margin-top: 50px;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+}
