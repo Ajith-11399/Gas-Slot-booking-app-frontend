@@ -54,10 +54,6 @@ At CloudNiine, we're committed to transforming the way you refuel. Our innovativ
 2. **Product Selection**: Browse gas products and add them to cart.
 3. **Date and Time Slot Selection**: Choose delivery date and preferred time slot.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Repository Link
 
 For more details on the Gas Slot Booking App Frontend, visit the [GitHub Repository](https://github.com/Ajith-11399/Gas-Slot-booking-app-frontend).
