@@ -36,7 +36,7 @@ const Login = () => {
     };
     try {
       const res = await axios.post(
-        "https://gas-slot-booking-app-backend.onrender.com/api/user/login-user",
+        "http://localhost:5000/api/user/login-user",
         payload
       );
       setMessage(res.data.message);
