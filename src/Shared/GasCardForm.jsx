@@ -50,7 +50,7 @@ const GasCardForm = () => {
   const handleSubmit = async (values, { setSubmitting }) => {
     const totalPrice =
       Number(price) * Number(values.quantity) + Number(deliveryCharge);
-
+  
     const payload = {
       fullName: values.fullName,
       email: values.email,
@@ -62,14 +62,14 @@ const GasCardForm = () => {
       totalPrice: totalPrice,
       product: values.product,
     };
-
+  
     try {
       const res = await axios.post(
         "https://gas-slot-booking-app-backend.onrender.com/api/user/booking",
         payload
       );
       setMessage(res.data.message);
-
+  
       if (res.data.message === "Your order has been placed successfully!") {
         if (window.Razorpay) {
           const options = {
@@ -109,7 +109,7 @@ const GasCardForm = () => {
               color: "#3399cc",
             },
           };
-
+  
           const rzp1 = new window.Razorpay(options);
           rzp1.open();
         } else {
@@ -125,6 +125,8 @@ const GasCardForm = () => {
     }
     setSubmitting(false);
   };
+  
+
 
   return (
     <div className="col-lg-6 col-md-12 col-sm-12 my-2">
