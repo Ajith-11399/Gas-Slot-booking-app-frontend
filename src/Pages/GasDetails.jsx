@@ -10,12 +10,8 @@ const GasDetails = () => {
       <Navbar />
       <div className="container my-5">
         <div className="row justify-content-center">
-          <div className="col-lg-8 col-md-12 col-sm-12">
-            <GasCards />
-          </div>
-          <div className="col-lg-4 col-md-12 col-sm-12">
-            <GasCardForm />
-          </div>
+          <GasCards />
+          <GasCardForm />
         </div>
       </div>
       <Footer />

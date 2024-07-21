@@ -50,9 +50,6 @@ const FeaturedGas = () => {
                         Detail <i className="fa-solid fa-circle-info"></i>
                       </button>
                     </Link>
-                    {/* <button className="btn btn-primary w-100 fw-medium">
-                      Add to Cart <i className="fa-solid fa-cart-shopping"></i>
-                    </button> */}
                   </div>
                 </div>
               </div>

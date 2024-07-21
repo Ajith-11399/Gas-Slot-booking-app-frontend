@@ -42,11 +42,6 @@ const Footer = () => {
                       Gas
                     </Link>
                   </p>
-                  {/* <p>
-                    <Link to="/cart" className="text-white text-decoration-none">
-                      Cart
-                    </Link>
-                  </p> */}
                 </div>
 
                 <div className="col-lg-3 col-md-6 col-sm-12 mx-auto mb-2">
