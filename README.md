@@ -15,6 +15,7 @@ At CloudNiine, we're committed to transforming the way you refuel. Our innovativ
 - **React Icons**: Library for popular icons in React components.
 - **React Spinners**: Library for loading spinners and indicators.
 - **Yup**: Library for form validation in React.
+- **RazorPay**: Razorpay is used for Payment gateway.
 
 ## Features
 
